@@ -9,6 +9,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- Alternate -->
+    <!-- <link href="bootstrap.css" rel="stylesheet" /> -->
+
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,7 +28,10 @@
     <header>
       <!-- NAVIGATION -->
       <nav class="nav container">
-        <a href="#" class="nav__logo">Piyush Yadav</a>
+        <div class="logo">
+
+            <a href="#" class="nav__logo"><img src="images/logo.png" alt=""></a>
+        </div>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list grid">
             <li class="nav__item">
@@ -35,7 +41,7 @@
               <a href="#skills" class="nav__link"> Skills </a>
             </li>
             <li class="nav__item">
-              <a href="#portfolio" class="nav__link"> Projects </a>
+              <a href="#projects" class="nav__link"> Projects </a>
             </li>
             <li class="nav__item">
               <a href="#contact" class="nav__link"> Contact </a>
@@ -54,7 +60,65 @@
       <!-- HOME -->
       <section class="s1">
         <div class="main-container">
-          <h1>Hi, I'm Piyush Yadav</h1>
+          <div class="greeting-wrapper">
+            <h1>Hi, I'm Piyush Yadav</h1>
+          </div>
+          <div class="intro-wrapper">
+            <div class="theme-wrapper">
+                <div id="theme-options-wrapper">
+                   <div id="light-mode" class="theme-dot"></div>
+                   <div id="dark-mode" class="theme-dot"></div>
+                   <div id="bright-mode" class="theme-dot"></div>
+                </div>
+            </div>
+            <div class="left-column">
+              <div class="row">
+                <div class="col-md-10 col-lg-8">
+                  <div class="intro">
+                    <div class="profile-img">
+                      <img src="images/githubdp.jpg" alt="" />
+                    </div>
+                    <h3><b>Piyush Yadav</b></h2>
+                    <!-- <h4 class="font-yellow">Software Developer</h4> -->
+                    <ul class="information margin-tb-20">
+                      <li><b>BORN : </b>October 19, 2000</li>
+                      <li><b>EMAIL : </b>impiyush016@gmail.com</li>
+                    </ul>
+                    <ul class="social-icons">
+                      <li>
+                        <a
+                          href="https://linkedin.com/in/piyush-yadav-b20305171/"
+"
+                          ><i class="ion-social-linkedin"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a href="https://github.com/py-PiYush"
+                          ><i class="ion-social-github"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- intro -->
+                </div>
+                <!-- col-sm-8 -->
+              </div>
+            </div>
+            <div class="right-column">
+                <div id="preview-shadow">
+                    <div id="preview">
+                    <div class="corner" id="corner-tl"></div>
+                    <div class="corner" id="corner-tr"></div>
+                    <h3>Status</h3>
+                    <p>New grad, Interested in Software development and Web development.</p>
+                    <p>Actively looking for opportunities.</p>
+                    <div class="corner" id="corner-br"></div>
+                    <div class="corner" id="corner-bl"></div>
+                </div>
+                </div>
+                
+            </div>
+          </div>
         </div>
       </section>
 
