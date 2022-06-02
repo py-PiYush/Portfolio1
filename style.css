@@ -214,7 +214,8 @@ b.max-bold {
     grid-area: right-column;
     display: grid;
     align-content: center;
-    padding: 50px 0 50px 0;
+    padding-top:50px ;
+    padding-bottom: 70px;
 }
 
 #preview-shadow{
@@ -267,6 +268,34 @@ b.max-bold {
 @media screen and (max-width: 1200px){
     .main-container{
         width: 95%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .intro-wrapper{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'theme-wrapper'
+        'left-column'
+        'right-column'
+        ;
+    }
+
+    .right-column{
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    #preview-shadow{
+        max-width: 280px;
+        height: 170px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    #preview{
+        width: 280px;
     }
 }
 
