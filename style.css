@@ -11,6 +11,8 @@
     --preview-bg:rgb(255, 249, 243, 0.8);
     --preview-shadow: #f0ead6 ;
 
+    --button-color: #000;
+
 }
 
 
@@ -468,6 +470,45 @@ b.max-bold {
     transition: all .2s ease;
     -webkit-transform: scale(1);
     transform: scale(1);
+}
+
+#contact-form{
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    margin-bottom: 50px;
+}
+
+#contact-form label{
+    line-height: 2.7em;
+}
+
+#contact-form textarea{
+    min-height: 100px;
+    font-size: 14px;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    font-size: 14px;
+}
+
+#submit-btn{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 20px;
+    color: #fff;
+    background-color:var(--button-color);
+
 }
 
 
