@@ -1,17 +1,17 @@
-:root{
-    --main-color:#eaeaea;
-    --secondary-color:#fff;
+:root {
+    --main-color: #152028;
+    --secondary-color: #192734;
 
-    --border-color:#c1c1c1;
+    --border-color: #007c80;
 
-    --main-text:black;
-    --secondary-text:#4b5156;
+    --main-text: #fff;
+    --secondary-text: #eee;
 
-    --theme-dot-border:#24292e;
-    --preview-bg:rgb(255, 249, 243, 0.8);
-    --preview-shadow: #f0ead6 ;
+    --theme-dot-border: #fff;
+    --preview-bg: rgb(25, 39, 52, 0.8);
+    --preview-shadow: #111921;
 
-    --button-color: #000;
+    --button-color: #17a2b0;
 
 }
 
@@ -19,6 +19,15 @@
 *{
     padding: 0;
     margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body *{
+    -webkit-transition: all .2s ease;
+        transition: all .2s ease;
 }
 
 h1, h2, h3, h4, h5, h6, strong{
@@ -52,7 +61,7 @@ button {
     transition: all .25s ease-in-out;
 }
 
-a:focus,
+
 a:active,
 a:hover,
 button:focus,
@@ -107,7 +116,7 @@ b.max-bold {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #234;
+    background: #000;
     border-bottom: 1px solid var(--border-color);
     position: fixed;
     width: calc(100% - 100px);
@@ -205,8 +214,8 @@ b.max-bold {
 #dark-mode{
     background-color: #192734;
 }
-#bright-mode{
-    background-color: #4d4dff;
+#contrast-mode{
+    background-color: #000;
 }
 
 .left-column{
@@ -238,7 +247,7 @@ b.max-bold {
     padding: 0 20px;
     /* margin-top: 100px; */
     text-align: center;
-    background: #fff;
+    background:var(--secondary-color);
 }
 
 .intro .profile-img {
@@ -375,7 +384,6 @@ b.max-bold {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    margin: 20px;
 }
 
 .about-me{

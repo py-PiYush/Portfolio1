@@ -1,0 +1,35 @@
+:root {
+    --main-color: #000;
+    --secondary-color: #080a0a;
+
+    --border-color: #11ffee;
+
+    --main-text: #08ff08;
+    --secondary-text: #eee;
+
+    --theme-dot-border: #fff;
+    --preview-bg: rgba(29, 21, 32, 0.8);
+    --preview-shadow: #2b202f;
+
+    --button-color: #1fe;
+
+}
+
+a:active,
+a:hover{
+    color: #cf0;
+}
+
+
+.intro .social-icons>li>a, .resume>a{
+background-color: #c724b1;
+}
+/* .resume>a:hover{
+background-color: #e0e722;
+} */
+
+#submit-btn{
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+}

@@ -7,7 +7,8 @@
     <title>Piyush Yadav</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
 
     <!-- Alternate -->
     <!-- <link href="bootstrap.css" rel="stylesheet" /> -->
@@ -66,9 +67,9 @@
           <div class="intro-wrapper">
             <div class="theme-wrapper">
                 <div id="theme-options-wrapper">
-                   <div id="light-mode" class="theme-dot"></div>
-                   <div id="dark-mode" class="theme-dot"></div>
-                   <div id="bright-mode" class="theme-dot"></div>
+                   <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                   <div data-mode="dark" id="dark-mode" class="theme-dot"></div>
+                   <div data-mode="contrast" id="contrast-mode" class="theme-dot"></div>
                 </div>
             </div>
             <div class="left-column">
@@ -127,11 +128,11 @@
       </section>
 
       <!-- ABOUT -->
-      <section class="s2">
+      <section id="about" class="s2">
         <div class="main-container">
           <div class="about-wrapper">
             <div class="about-me">
-              <h4>About Me</h4>
+              <h4 >About Me</h4>
               <p>Hello, I'm Piyush Yadav currently based in Pune, Maharashtra, India. 
                 I recently completed my B.Tech in Aerospace engineering from Indian Institute of Technology, Bombay.</p>
 
@@ -140,7 +141,7 @@
             </div>
             <hr>
             <div class="skills-wrapper">
-              <h4>Skills</h4>
+              <h4 id="skills">Skills</h4>
               <div class="skill-items">
                 <ul>
                   <li>Python</li>
@@ -165,7 +166,7 @@
       <!-- PROJECTS -->
       <section class="s1">
         <div class="main-container">
-          <h4 style="text-align: center; padding-top:20px;">My Projects</h4>
+          <h4 id="projects" style="text-align: center; padding-top:20px;">My Projects</h4>
           <div class="post-wrapper">
             <div>
               <div class="post">
@@ -252,7 +253,7 @@
       <!-- CONTACT -->
       <section class="s2">
         <div class="main-container">
-          <h3 style="text-align:center; padding-top:20px;">Get in Touch</h3>
+          <h3 id="contact" style="text-align:center; padding-top:20px;">Get in Touch</h3>
           <form action="" id="contact-form">
             <label for="name">Name</label>
             <input type="text" name="name" class="input-field">
@@ -272,5 +273,6 @@
       </section>
     </main>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
